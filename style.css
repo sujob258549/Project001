@@ -1,0 +1,485 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Abril Fatface', serif;
+    font-family: 'Metal Mania', system-ui;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 200px;
+}
+
+.heads .main-hader {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    padding: 20px 0 0 100px;
+}
+
+.heads .left-column .main-hader h1 {
+    font-size: 45px;
+    font-weight: 800;
+
+}
+
+.heads .are {
+    color: #FD6E0A;
+}
+
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    padding-left: 50px;
+}
+
+nav a {
+    color: #474747;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.heads .primati-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FD6E0A;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+}
+
+.heads .primati-btn:hover {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #FD6E0A;
+    /* border: 1px solid #FD6E0A; */
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #FD6E0A;
+}
+
+.heads .write-column {
+    align-items: center;
+}
+
+nav ul {
+    align-items: center;
+}
+
+.secend-btn {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #FD6E0A;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+    margin-left: 20px;
+}
+
+.secend-btn:hover {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FD6E0A;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+    margin-left: 20px;
+    transition: .4s;
+}
+
+.banner-section {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.heads img {
+    height: 676px;
+    width: 584px;
+}
+
+.banner-section h3 {
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-section .haddings {
+    font-size: 85px;
+    font-weight: 800;
+
+}
+
+.banner-section p {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px 0;
+
+}
+
+.heads {
+    padding: 40px 30px 0 200px;
+    background: url(./images/header_bg.png), url(./images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+    background-color: #FFF8F3;
+
+}
+
+.banner-section i {
+    padding-right: 20px;
+}
+
+.banner-section .left-column {
+    padding-right: 100px;
+}
+
+.about-section .bottom-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+/* .taitle-contane{
+    box-shadow: 1px 1px 10px;
+} */
+.about-section h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.about-section .top-column p {
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* main{
+    margin: 0 200px;
+} */
+
+.about-section .container {
+    padding: 100px;
+}
+
+.about-section .bottom-column {
+    text-align: center;
+    /* padding-top: 40px; */
+}
+
+.about-section .bottom-column p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about-section .bottom-column h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.about-section {
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 50px 200px;
+}
+
+/* .about-section .main-column{
+    border-radius: 110px;
+} */
+
+.MongoDB .bottom-column h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.MongoDB.bottom-column p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.MongoDB .bottom-column h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+
+}
+
+.MongoDB .bottom-column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+
+.MongoDB.top-column p {
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    text-align: center;
+    padding: 40px 0;
+}
+
+/* .MongoDB .container{
+    padding: 100px;
+} */
+
+.MongoDB .bottom-column p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.MongoDB h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.MongoDB .top-column p {
+    font-size: 18px;
+    line-height: 30px;
+    color: black;
+    /* text-align: center; */
+    padding: 40px 0;
+}
+
+
+.MongoDB {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+.MongoDB .taitle-contane {
+    box-shadow: 1px 1px 10px;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+
+/* portfoleo                                             00000000000000000000000000000000 */
+
+
+.portfoleo .main-column2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.portfoleo h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.portfoleo h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+    /* text-align: center; */
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.portfoleo h4 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #000;
+    padding-top: 15px;
+
+}
+
+.portfoleo h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    padding: 15px 0 20px 0;
+}
+
+.portfoleo p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #433838;
+}
+
+.portfoleo .primati-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FD6E0A;
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+
+}
+
+.portfoleo .primati-btn:hover {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #FD6E0A;
+    /* border: 1px solid #FD6E0A; */
+    padding: 15px 25px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #FD6E0A;
+}
+
+
+.portfoleo .primati-btn i {
+    padding-right: 10px;
+}
+
+.portfoleo .portfoleo-buttons {
+
+    text-align: center;
+    padding: 50px 0;
+}
+
+
+/* footer section.................................................................................................. */
+
+
+
+
+.footer-section .main-colum {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+
+.footer-section h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    /* text-align: center; */
+}
+
+.footer-section .btn {
+    margin-top: 10px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #433838;
+    padding: 15px 0 20px 0;
+}
+
+.footer-section .primati-btn {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #FD6E0A;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #FD6E0A;
+    transition: .4s;
+
+}
+
+.footer-section .primati-btn:hover {
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #FD6E0A;
+    /* border: 1px solid #FD6E0A; */
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #FD6E0A;
+}
+
+
+.footer-section i {
+    padding-right: 10px;
+    color: #FD6E0A;
+    font-size: 20px;
+}
+
+
+
+
+.footer-section {
+    background-color: #FFF8F3;
+    padding: 100px 0;
+}
+
+.footer-section input,
+textarea {
+    width: 100%;
+    display: block;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 18px;
+
+}
+
+::placeholder {
+    font-size: 18px;
+
+}
+
+.form-inline {
+    padding-top: 20px;
+}
+
+.footer-section .cb {
+    width: 20px;
+    display: inline-block;
+}
+.footer-section label{
+    padding: 20px 5px;
+}
+
+.footer-section textarea {
+    height: 100px;
+}
+
+.footer-section .form-inline {
+    box-shadow: 1px 1px 10px;
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.gender{
+    padding-bottom: 20px;
+}
+
+.footer-section .checkbo{
+    padding-top: 10px;
+}
