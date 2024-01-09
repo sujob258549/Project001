@@ -22,13 +22,17 @@ body {
 }
 
 header {
-    padding: 20px 0 0 100px;
+    padding: 20px 0 20px 100px;
 }
 
 .heads .left-column .main-hader h1 {
     font-size: 45px;
     font-weight: 800;
 
+}
+
+.heads {
+    background-color: #FFF8F3;
 }
 
 .heads .are {
@@ -45,13 +49,25 @@ nav li {
     padding-left: 50px;
 }
 
-nav a {
+.heads nav a {
     color: #474747;
     font-size: 20px;
     text-decoration: none;
 }
 
-.heads .primati-btn {
+/* .banner-section */
+
+.banner-section .main-colum {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-section .main-colum .left-column {
+    max-width: 550px;
+}
+
+.primati-btn {
     font-size: 20px;
     font-weight: 700;
     color: #fff;
@@ -63,7 +79,7 @@ nav a {
     transition: .4s;
 }
 
-.heads .primati-btn:hover {
+.primati-btn:hover {
     font-size: 20px;
     font-weight: 700;
     background-color: #fff;
@@ -75,7 +91,7 @@ nav a {
     border: 1px solid #FD6E0A;
 }
 
-.heads .write-column {
+.banner-section .write-column {
     align-items: center;
 }
 
@@ -116,9 +132,11 @@ nav ul {
     padding-top: 50px;
 }
 
-.heads img {
-    height: 676px;
-    width: 584px;
+.banner-section img {
+    /* height: 676px; */
+    width: 370px;
+    /* width: 100%; */
+    padding-bottom: 0;
 }
 
 .banner-section h3 {
@@ -140,13 +158,19 @@ nav ul {
 
 }
 
-.heads {
-    padding: 40px 30px 0 200px;
+.banner-section {
+    /* padding: 40px 30px 0 200px; */
     background: url(./images/header_bg.png), url(./images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right, top left;
     background-color: #FFF8F3;
+    background-size: contain;
+}
 
+
+.banner-section .container {
+    margin: 0 auto;
+    padding: 0 50px 0 200px;
 }
 
 .banner-section i {
@@ -461,7 +485,8 @@ textarea {
     width: 20px;
     display: inline-block;
 }
-.footer-section label{
+
+.footer-section label {
     padding: 20px 5px;
 }
 
@@ -476,10 +501,148 @@ textarea {
     border-radius: 10px;
 }
 
-.gender{
+.gender {
     padding-bottom: 20px;
 }
 
-.footer-section .checkbo{
+.footer-section .checkbo {
     padding-top: 10px;
+}
+
+
+
+
+/* media query */
+
+
+@media only screen and (max-width: 1080px) {
+    .container {
+        padding: 50px;
+    }
+
+    .banner-section .container {
+        padding: 50px;
+    }
+
+    .banner-section .left-column {
+        padding-right: 20px;
+    }
+    .about-section {
+        margin: 50px 80px;
+    }
+    .about-section .container {
+        padding: 50px;
+    }
+    .about-section .bottom-column {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .primati-btn {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 15px;
+    }
+
+    .primati-btn:hover {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 15px;
+    }
+
+    .secend-btn {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 15px;
+        margin-left: 10px;
+    }
+
+    .secend-btn:hover {
+        font-size: 15px;
+        font-weight: 600;
+        padding: 12px 15px;
+        margin-left: 10px;
+    }
+
+    .banner-section i {
+        padding-right: 9px;
+    }
+
+    .MongoDB .bottom-column {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .banner-section .write-column {
+        display: none;
+    }
+    .MongoDB {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    .footer-section .main-colum {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+
+    .footer-section {
+        padding: 0;
+    }
+    .container {
+        padding: 30px;
+    }
+    header {
+        padding: 20px 30px;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .banner-section .haddings {
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    .about-section .bottom-column {
+        grid-template-columns: 1fr;
+    }
+    .about-section .container {
+        padding: 25px;
+    }
+    .about-section {
+        margin: 50px 30px;
+    }
+    .MongoDB .bottom-column {
+        grid-template-columns: 1fr;
+    }
+
+    .MongoDB {
+        margin-top: -30px;
+        margin-bottom: -10px;
+    }
+    .portfoleo .main-column2 {
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+    }
+
+    .portfoleo h2 {
+        color: #f70101;
+    }
+    nav li {
+        padding-left: 10px;
+    }
+
+    .heads nav a {
+        font-size: 16px;
+    }
+    .primati-btn {
+        font-size: 12px;
+    }
+ 
 }
