@@ -576,6 +576,9 @@ textarea {
         column-gap: 30px;
         row-gap: 30px;
     }
+    .MongoDB .taitle-contane {
+        padding: 30px;
+    }
 
 }
 
@@ -605,8 +608,16 @@ textarea {
 
 @media only screen and (max-width: 580px) {
     .banner-section .haddings {
-        font-size: 60px;
-        font-weight: 800;
+        font-size: 47px;
+    }
+    .banner-section h3 {
+        font-size: 34px;
+    }
+    .banner-section .left-column {
+        padding-right: 0;
+    }
+    .banner-section .container {
+        padding: 50px 30px;
     }
 
     .about-section .bottom-column {
@@ -642,7 +653,17 @@ textarea {
         font-size: 16px;
     }
     .primati-btn {
-        font-size: 12px;
+        font-size: 14px;
+    }
+    .primati-btn:hover{
+        font-size: 14px;
     }
  
 }
+
+
+@media only screen and (max-width: 48px) {
+    .banner-section .haddings{
+        font-size: 47px;
+    }
+  }
