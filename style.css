@@ -583,8 +583,8 @@ textarea {
 }
 
 @media only screen and (max-width:768px) {
-    .banner-section .write-column {
-        display: none;
+    .banner-section .main-colum {
+        flex-direction: column;
     }
     .MongoDB {
         margin-top: 50px;
@@ -604,6 +604,13 @@ textarea {
     header {
         padding: 20px 30px;
     }
+    .banner-section .container {
+        padding: 0 30px;
+    }
+    .banner-section img {
+        width: 300px;
+        padding-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 580px) {
@@ -617,7 +624,7 @@ textarea {
         padding-right: 0;
     }
     .banner-section .container {
-        padding: 50px 30px;
+        padding: 0px 30px;
     }
 
     .about-section .bottom-column {
