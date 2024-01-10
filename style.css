@@ -522,6 +522,7 @@ textarea {
 
     .banner-section .container {
         padding: 50px;
+        padding-bottom: 0;
     }
 
     .banner-section .left-column {
